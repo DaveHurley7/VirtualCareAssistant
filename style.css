@@ -1,0 +1,74 @@
+body{
+    background-color:#33CCFF !important;
+}
+div.jumbotron{
+    background-color:#3366FF;
+    height:150px;
+}
+#webtitle{
+    display:inline;
+}
+#account_select{
+    margin:auto;
+    width:30%;
+}
+#createCarerForm{
+    margin:auto;
+    width:20%;
+}
+#loginbuttons{
+    margin:auto;
+    width:24.5%;
+}
+#loginpic{
+    height:50%;
+}
+#carerlogin, #adminlogin{
+    width:15%;
+    margin:auto;
+}
+#carerEmail,#carerPassword,input[type="submit"]{
+    margin:auto;
+}
+#carererror,#adminerror{
+    color:red;
+}
+#map{
+    float:left;
+    height:550px;
+    width:70%;
+}
+#console{
+    float:right;
+    margin:auto;
+}
+#editingicons{
+    float:right;
+    margin-right:5%;
+    width:15%;
+}
+#edit,#cancel{
+    float:right;
+    cursor:pointer;
+}
+#cancel,#save,#marker_details{
+    display:none;
+}
+#save{
+    margin-right:30%;
+    cursor:pointer;
+}
+#patient_details,#marker_details{
+    width:25em;
+    border:3px #777 solid;
+    background-color:#BBB;
+}
+#formfields{
+    margin:auto;
+    width:85%;
+}
+#notif_panel{
+    background-color:indianred;
+    width:25em;
+    border:3px darkred solid;
+}

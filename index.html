@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+		<title>Virtual Care Assistant</title>
+        <script src="//www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+        <script src="app.js"></script>
+		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="jumbotron">
+            <h1>VCA</h1>
+        </div>
+        <div id="account_select">
+            <img src="images/admin_cat.png">
+            <img style="float:right;" src="images/carer_cat.png">
+        </div>
+        <div id="loginbuttons">
+            <button onclick="window.location.assign('adminlogin.html')">Login as Admin</button>
+            <button style="float:right;" onclick="window.location.assign('carerlogin.html')">Login as Carer</button>
+        </div>
+	</body>
+</html>
